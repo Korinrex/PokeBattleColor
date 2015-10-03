@@ -1,4 +1,4 @@
-{
+ {
     "appKeys": {},
     "capabilities": [
         ""
@@ -9,75 +9,9 @@
     "resources": {
         "media": [
             {
-                "file": "images/250front.png",
-                "name": "HoOh",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
-            },
-            {
-                "file": "images/249shiny.png",
-                "name": "LUGIA_SHINY",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
-            },
-            {
-                "file": "images/249.png",
-                "name": "LUGIA",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
-            },
-            {
-                "file": "images/colorBackground.png",
-                "name": "BACKGROUND",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
-            },
-            {
-                "characterRegex": "[A-Z]",
-                "file": "fonts/Pokemon_GB.ttf",
-                "name": "FONT_NAME_8",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9]",
-                "file": "fonts/Pokemon_GB.ttf",
-                "name": "FONT_TIME_24",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9]",
-                "file": "fonts/Pokemon_GB.ttf",
-                "name": "FONT_LEVEL_10",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "font"
-            },
-            {
-                "file": "fonts/Pokemon_GB.ttf",
-                "name": "FONT_DATE_7",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "font"
-            },
-            {
-                "file": "images/paralysis.png",
-                "name": "STATUS_PARALYSIS",
+                "file": "images/menu.png",
+                "menuIcon": true,
+                "name": "MENU",
                 "targetPlatforms": [
                     "basalt"
                 ],
@@ -92,6 +26,14 @@
                 "type": "png"
             },
             {
+                "file": "images/colorBackground.png",
+                "name": "BACKGROUND",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
                 "file": "data/009.png",
                 "name": "BLASTOISE",
                 "targetPlatforms": [
@@ -100,13 +42,47 @@
                 "type": "raw"
             },
             {
-                "file": "images/menu.png",
-                "menuIcon": true,
-                "name": "MENU",
+                "characterRegex": "[0-9]",
+                "file": "fonts/Pokemon_GB.ttf",
+                "name": "FONT_LEVEL_10",
                 "targetPlatforms": [
                     "basalt"
                 ],
-                "type": "png"
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Pokemon_GB.ttf",
+                "name": "FONT_TIME_24",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "characterRegex": "[A-Z]",
+                "file": "fonts/Pokemon_GB.ttf",
+                "name": "FONT_NAME_8",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "file": "fonts/Pokemon_GB.ttf",
+                "name": "FONT_DATE_7",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "file": "data/006.png",
+                "name": "CHARIZARD_NORM",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "raw"
             },
             {
                 "file": "data/006b.png",
@@ -117,12 +93,12 @@
                 "type": "raw"
             },
             {
-                "file": "data/006.png",
-                "name": "CHARIZARD_NORM",
+                "file": "images/paralysis.png",
+                "name": "STATUS_PARALYSIS",
                 "targetPlatforms": [
                     "basalt"
                 ],
-                "type": "raw"
+                "type": "png"
             }
         ]
     },

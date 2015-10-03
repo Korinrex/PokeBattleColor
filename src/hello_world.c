@@ -121,7 +121,7 @@ static void load_e_sequence() {
   }
   if(e_bitmap) {
     gbitmap_destroy(e_bitmap);
-    e_bitmap = NULL;
+    e_bitmap = NULL; 
   }
 
   // Create 
@@ -156,7 +156,7 @@ static void load_date_text_layer(Layer *window_layer)
 
 static void load_pokemon_name_layers(Layer *window_layer)
 {  
-  pokemon_name_font  = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_NAME_8));
+  pokemon_name_font  = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_DATE_7));
   ally_pokemon_name_layer = text_layer_create(GRect(70,78,120,12));
   text_layer_set_text_color(ally_pokemon_name_layer, GColorBlack);
  	text_layer_set_background_color(ally_pokemon_name_layer, GColorClear);
